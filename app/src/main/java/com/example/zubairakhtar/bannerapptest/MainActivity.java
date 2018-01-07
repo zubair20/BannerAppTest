@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         //Initialization
         MobileAds.initialize(this, "ca-app-pub-8167039423221574~2398604308");
         //Banner Ads
@@ -51,5 +52,10 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed() {
         //show apps on exit
         showInterstitial();
+    }
+
+    //Button methods
+    public void beautytips9ButtonClicked(){
+
     }
 }
